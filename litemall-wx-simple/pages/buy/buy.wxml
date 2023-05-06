@@ -1,28 +1,11 @@
 <!-- 1.顶部：左边店铺选择，右边有预约，自提，外送三个选项，这三个选项是文字配图标
 2.中部：左边是分类，右边是具体商品，商品展示信息左边显示商品图片，商品展示信息中间显示名称、单价、销售量、推荐指数、产品标签，商品展示信息右边显示添加图标。
 3.整体背景是白色，设计风格简约。 -->
-
-<view class="navbar">
-  <view class="navbar-shop">
-    <!-- 左边店铺选择 -->
-    <image class="navbar-shop-logo" src="/static/images/logo.png"></image>
-    <view class="navbar-shop-name">店铺名称</view>
-    <image class="navbar-shop-arrow" src="/static/images/arrow-down.svg"></image>
-  </view>
-  <view class="navbar-options">
-    <!-- 右边有预约，自提，外送三个选项 -->
-    <view class="navbar-option">
-      <image class="navbar-option-icon" src="/static/images/booking.svg"></image>
-      <view class="navbar-option-text">预约</view>
-    </view>
-    <view class="navbar-option">
-      <image class="navbar-option-icon" src="/static/images/pickup.svg"></image>
-      <view class="navbar-option-text">自提</view>
-    </view>
-    <view class="navbar-option">
-      <image class="navbar-option-icon" src="/static/images/delivery.svg"></image>
-      <view class="navbar-option-text">外送</view>
+<view class="container">
+  <view class="search-bar">
+    <view class="search-input">
+      <image src="/static/images/index/search.svg"></image>
+      <input placeholder="搜索商品"></input>
     </view>
   </view>
 </view>
-
