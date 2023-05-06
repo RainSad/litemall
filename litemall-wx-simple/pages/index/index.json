@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTitleText": "sunwx的小酒館",
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom"
 }

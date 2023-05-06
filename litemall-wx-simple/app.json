@@ -3,11 +3,14 @@
         "pages/index/index"
     ],
     "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
-        "navigationBarTextStyle": "black"
+      "navigationBarBackgroundColor": "#FFFFFF",
+      "navigationBarTitleText": "sunwx的小酒館",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "backgroundColor": "#FFFFFF",
+      "backgroundTextStyle": "dark"
     },
+    
     "style": "v2",
     "sitemapLocation": "sitemap.json"
 }

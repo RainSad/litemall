@@ -1,4 +1,23 @@
-<!--index.wxml-->
-<view class="container">
-  Weixin
+<!-- index.wxml -->
+<view class="container" >
+  <view class="back-ground">
+    <image class="back-ground-img" src="/static/images/index/index-backgroud.jpg"></image>
+  </view>
+
+  <view class="button-group">
+    <view class="button">
+      <image class="icon" src="/static/images/index/wine-glasses.svg"></image>
+      <text class="text">外送到家</text>
+    </view>
+    <view class="button">
+      <image class="icon" src="/static/images/index/wine-glasses.svg"></image>
+      <text class="text">到店自提</text>
+    </view>
+    <view class="button">
+      <image class="icon" src="/static/images/index/wine-glasses.svg"></image>
+      <text class="text">自选商城</text>
+    </view>
+  </view>
+
+
 </view>
