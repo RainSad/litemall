@@ -1,16 +1,17 @@
 {
-    "pages": [
-        "pages/index/index"
-    ],
-    "window": {
-      "navigationBarBackgroundColor": "#FFFFFF",
-      "navigationBarTitleText": "sunwx的小酒館",
-      "enablePullDownRefresh": false,
-      "navigationBarTextStyle": "black",
-      "backgroundColor": "#FFFFFF",
-      "backgroundTextStyle": "dark"
-    },
+  "pages": [
+    "pages/buy/buy",
+    "pages/index/index"
     
-    "style": "v2",
-    "sitemapLocation": "sitemap.json"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "sunwx的小酒館",
+    "enablePullDownRefresh": false,
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
 }
