@@ -21,5 +21,104 @@
       </view>
     </view>
   </view>
+  <view class="category">
+    <scroll-view class="category-left" scroll-y="true">
+      <!-- 左边导航栏  -->
+      <view class="category-item">
+        <text>热销</text>
+      </view>
+      <view class="category-item">
+        <text>饮品</text>
+      </view>
+      <view class="category-item">
+        <text>甜品</text>
+      </view>
+      <view class="category-item">
+        <text>小吃</text>
+      </view>
+      <view class="category-item">
+        <text>套餐</text>
+      </view>
+      <view class="category-item">
+        <text>优惠</text>
+      </view>
+
+    </scroll-view>
+    <scroll-view class="category-right" scroll-y="true">
+      <view class="goods-list">
+        <view class="goods-item">
+          <view class="goods-img">
+            <image src="/static/images/buy/bindao.jpg"></image>
+          </view>
+          <view class="goods-info">
+            <text class="goods-name">鲜芒果冰沙</text>
+            <text class="goods-desc">冰沙+芒果+奶油</text>
+            <text class="goods-recommend">推荐指数：★★★★★</text>
+          </view>
+          <view class="goods-add-button">
+            <text class="goods-price">$ 34</text>
+            <button class="add-goods-btn" type="primary" size="mini">+</button>
+          </view>
+        </view>
+        <view class="goods-item">
+          <view class="goods-img">
+            <image src="/static/images/buy/bindao.jpg"></image>
+          </view>
+          <view class="goods-info">
+            <text class="goods-name">鲜芒果冰沙</text>
+            <text class="goods-desc">冰沙+芒果+奶油</text>
+            <text class="goods-recommend">推荐指数：★★★★★</text>
+          </view>
+          <view class="goods-add-button">
+            <text class="goods-price">$ 34</text>
+            <button class="add-goods-btn" type="primary" size="mini">+</button>
+          </view>
+        </view>
+        <view class="goods-item">
+          <view class="goods-img">
+            <image src="/static/images/buy/bindao.jpg"></image>
+          </view>
+          <view class="goods-info">
+            <text class="goods-name">鲜芒果冰沙</text>
+            <text class="goods-desc">冰沙+芒果+奶油</text>
+            <text class="goods-recommend">推荐指数：★★★★★</text>
+          </view>
+          <view class="goods-add-button">
+            <text class="goods-price">$ 34</text>
+            <button class="add-goods-btn" type="primary" size="mini">+</button>
+          </view>
+        </view>
+        <view class="goods-item">
+          <view class="goods-img">
+            <image src="/static/images/buy/bindao.jpg"></image>
+          </view>
+          <view class="goods-info">
+            <text class="goods-name">鲜芒果冰沙</text>
+            <text class="goods-desc">冰沙+芒果+奶油</text>
+            <text class="goods-recommend">推荐指数：★★★★★</text>
+          </view>
+          <view class="goods-add-button">
+            <text class="goods-price">$ 34</text>
+            <button class="add-goods-btn" type="primary" size="mini">+</button>
+          </view>
+        </view>
+        <view class="goods-item">
+          <view class="goods-img">
+            <image src="/static/images/buy/bindao.jpg"></image>
+          </view>
+          <view class="goods-info">
+            <text class="goods-name">鲜芒果冰沙</text>
+            <text class="goods-desc">冰沙+芒果+奶油</text>
+            <text class="goods-recommend">推荐指数：★★★★★</text>
+          </view>
+          <view class="goods-add-button">
+            <text class="goods-price">$ 34</text>
+            <button class="add-goods-btn" type="primary" size="mini">+</button>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
 
 </view>

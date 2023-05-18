@@ -1,18 +1,15 @@
 // pages/buy/buy.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    categoryHeight: 0
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad(options) {
-
+    let screenHeight = wx.getSystemInfoSync().windowHeight;
+    this.setData({
+      categoryHeight: screenHeight - (0.2 * screenHeight),
+    });
   },
 
   /**

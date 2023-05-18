@@ -7,7 +7,8 @@
 
 .search-bar {
   width: 70%;
-  height: 7%;
+  height: 7vh;
+  top: 5px;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -30,14 +31,13 @@
 }
 
 .search-input input {
-  flex: 1;
-  height: 100%;
   border: none;
   outline: none;
   font-size: 14px;
 }
 .store-select {
   display: flex;
+  height: 7vh;
   justify-content: space-between;
   align-items: center;
   width: 90%;
@@ -89,15 +89,129 @@
   transform: scale(0.7);
 }
 
-
-.button:hover {
-  background-color: #ff6347;
-  cursor: pointer;
+.category {
+  display: flex;
+  height: 86vh;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
 }
 
-.function-btn image {
-  width: 24px;
-  height: 24px;
-  margin-bottom: 5px;
+.category-left {
+  display: flex;
+  height: 100%;
+  width: 30%;
+  justify-content: center;
+  align-content: center;
 }
+
+.category-right {
+  display: flex;
+  height: 100%;
+  width: 70%;
+}
+
+.category-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.category-item.active {
+  color: #ff4544;
+  border-bottom: 4rpx solid #ff4544;
+}
+
+.goods-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.goods-item {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.goods-img {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+
+.goods-img image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  aspect-ratio: 1;
+}
+
+.goods-info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 20rpx;
+}
+
+.goods-name {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.goods-desc {
+  font-size: 28rpx;
+  color: #999;
+  margin-bottom: 10rpx;
+}
+
+.goods-recommend {
+  font-size: 28rpx;
+  color: #ff9900;
+  margin-bottom: 10rpx;
+}
+
+.goods-add-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 18%;
+  height: 100%;
+}
+
+.add-goods-btn {
+  width: 10%;
+  height: 30%;
+  border-radius: 10px;
+  font-size: 10px;
+  background-color: #00BFFF;
+  color: #FFFFFF;
+  transform: scale(0.7);
+}
+
+.goods-price {
+  font-size: 25rpx;
+  margin-bottom: 10rpx;
+}
+
+
+
 
