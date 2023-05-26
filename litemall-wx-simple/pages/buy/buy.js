@@ -2,14 +2,92 @@
 Page({
 
   data: {
-    categoryHeight: 0
+    navList: [
+      {
+        navIcon: "/static/images/buy/WineGlassessIcon1.svg",
+        navName: "热销"
+      },
+      {
+        navIcon: "/static/images/buy/WineGlassessIcon2.svg",
+        navName: "茶系列"
+      },{
+        navIcon: "/static/images/buy/WineGlassessIcon3.svg",
+        navName: "新品"
+      },
+      {
+        navIcon: "/static/images/buy/WineGlassessIcon4.svg",
+        navName: "经典系列"
+      },
+      {
+        navIcon: "/static/images/buy/WineGlassessIcon1.svg",
+        navName: "诗酒茶"
+      }
+    ],
+    goodsList: [
+      {
+        goodsImg: "/static/images/buy/bindao.jpg",
+        goodsName: "长岛冰茶",
+        goodsDesc: "朗姆酒+可乐+葡萄酒",
+        goodsRecommend: "酒精度30% ★★★★★★",
+        goodsPrice: "$34"
+      },
+      {
+        goodsImg: "/static/images/buy/bindao.jpg",
+        goodsName: "长岛冰茶",
+        goodsDesc: "朗姆酒+可乐+葡萄酒",
+        goodsRecommend: "酒精度30% ★★★★★★",
+        goodsPrice: "$34"
+      },
+      {
+        goodsImg: "/static/images/buy/bindao.jpg",
+        goodsName: "长岛冰茶",
+        goodsDesc: "朗姆酒+可乐+葡萄酒",
+        goodsRecommend: "酒精度30% ★★★★★★",
+        goodsPrice: "$34"
+      },
+      {
+        goodsImg: "/static/images/buy/bindao.jpg",
+        goodsName: "长岛冰茶",
+        goodsDesc: "朗姆酒+可乐+葡萄酒",
+        goodsRecommend: "酒精度30% ★★★★★★",
+        goodsPrice: "$34"
+      },
+      {
+        goodsImg: "/static/images/buy/bindao.jpg",
+        goodsName: "长岛冰茶",
+        goodsDesc: "朗姆酒+可乐+葡萄酒",
+        goodsRecommend: "酒精度30% ★★★★★★",
+        goodsPrice: "$34"
+      },
+      {
+        goodsImg: "/static/images/buy/bindao.jpg",
+        goodsName: "长岛冰茶",
+        goodsDesc: "朗姆酒+可乐+葡萄酒",
+        goodsRecommend: "酒精度30% ★★★★★★",
+        goodsPrice: "$34"
+      },
+      {
+        goodsImg: "/static/images/buy/bindao.jpg",
+        goodsName: "长岛冰茶",
+        goodsDesc: "朗姆酒+可乐+葡萄酒",
+        goodsRecommend: "酒精度30% ★★★★★★",
+        goodsPrice: "$34"
+      },
+      {
+        goodsImg: "/static/images/buy/bindao.jpg",
+        goodsName: "长岛冰茶",
+        goodsDesc: "朗姆酒+可乐+葡萄酒",
+        goodsRecommend: "酒精度30% ★★★★★★",
+        goodsPrice: "$34"
+      }
+    ],
+    page: 1,
+    limit: 10,
+    pages:1
   },
 
   onLoad(options) {
-    let screenHeight = wx.getSystemInfoSync().windowHeight;
-    this.setData({
-      categoryHeight: screenHeight - (0.2 * screenHeight),
-    });
+    
   },
 
   /**

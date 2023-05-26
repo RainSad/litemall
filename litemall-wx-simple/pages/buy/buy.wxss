@@ -91,7 +91,7 @@
 
 .category {
   display: flex;
-  height: 86vh;
+  height: 80vh;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
@@ -126,7 +126,7 @@
 }
 
 .category-item-img {
-  width: 40%;
+  width: 25%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
@@ -134,6 +134,7 @@
 
 .category-item-desc {
   width: 60%;
+  margin-left: 20rpx;
 }
 
 .goods-list {

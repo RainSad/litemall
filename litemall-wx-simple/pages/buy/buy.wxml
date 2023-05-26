@@ -24,55 +24,24 @@
   <view class="category">
     <scroll-view class="category-left" scroll-y="true">
       <!-- 左边导航栏  -->
-      <view class="category-item">
-        <image class="category-item-img" src="/static/images/buy/WineGlassessIcon1.svg" />
-        <text class="category-item-desc" >热销</text>
+      <view class="category-item" wx:for="{{navList}}" wx:key="index">
+        <image class="category-item-img" src="{{item.navIcon}}" />
+        <text class="category-item-desc" >{{item.navName}}</text>
       </view>
-      <view class="category-item">
-        <image class="category-item-img" src="/static/images/buy/WineGlassessIcon2.svg" />
-        <text class="category-item-desc" >茶系列</text>
-      </view>
-      <view class="category-item">
-        <image class="category-item-img" src="/static/images/buy/WineGlassessIcon3.svg" />
-        <text class="category-item-desc" >新品</text>
-      </view>
-      <view class="category-item">
-        <image class="category-item-img" src="/static/images/buy/WineGlassessIcon4.svg" />
-        <text class="category-item-desc" >经典系列</text>
-      </view>
-      <view class="category-item">
-        <image class="category-item-img" src="/static/images/buy/WineGlassessIcon1.svg" />
-        <text class="category-item-desc" >诗酒茶</text>
-      </view>
-
     </scroll-view>
     <scroll-view class="category-right" scroll-y="true">
       <view class="goods-list">
-        <view class="goods-item">
+        <view class="goods-item" wx:for="{{goodsList}}" wx:key="iindex"  wx:for-item="iitem">
           <view class="goods-img">
-            <image src="/static/images/buy/bindao.jpg"></image>
+            <image src="{{iitem.goodsImg}}"></image>
           </view>
           <view class="goods-info">
-            <text class="goods-name">长岛冰茶</text>
-            <text class="goods-desc">朗姆酒+可乐+葡萄酒</text>
-            <text class="goods-recommend">酒精度30% ★★★★★★</text>
+            <text class="goods-name">{{iitem.goodsName}}</text>
+            <text class="goods-desc">{{iitem.goodsDesc}}</text>
+            <text class="goods-recommend">{{iitem.goodsRecommend}}</text>
           </view>
           <view class="goods-privce-add">
-            <text class="goods-price">$34</text>
-            <image class="add-icon" src="/static/images/buy/add.svg"></image>
-          </view>
-        </view>
-        <view class="goods-item">
-          <view class="goods-img">
-            <image src="/static/images/buy/bindao.jpg"></image>
-          </view>
-          <view class="goods-info">
-            <text class="goods-name">长岛冰茶</text>
-            <text class="goods-desc">朗姆酒+可乐+葡萄酒</text>
-            <text class="goods-recommend">酒精度30% ★★★★★★</text>
-          </view>
-          <view class="goods-privce-add">
-            <text class="goods-price">$34</text>
+            <text class="goods-price">{{iitem.goodsPrice}}</text>
             <image class="add-icon" src="/static/images/buy/add.svg"></image>
           </view>
         </view>
