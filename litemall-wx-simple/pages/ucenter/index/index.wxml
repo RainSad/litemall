@@ -1,0 +1,11 @@
+<!--pages/ucenter/index/index.wxml-->
+<view class="container">
+  <scroll-view class="container-scroll">
+    <view class="card" style="background-color: gray;"></view>
+    <view class="user" style="background-color: gold;"></view>
+    <view class="set" style="background-color: green;"></view>
+    <view class="others" style="background-color: darkorange;"></view>
+  </scroll-view>
+
+
+</view>

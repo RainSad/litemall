@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "van-rate": "/lib/vant-app/rate/index"
+  }
+}
